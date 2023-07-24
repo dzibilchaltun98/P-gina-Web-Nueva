@@ -1,0 +1,246 @@
+body{
+
+    background: lavender;
+    position: relative; /*Quitar codigo */
+}
+
+
+header{
+    background-color: rebeccapurple;
+    color: whitesmoke;
+    margin-top: 70px; /*Quitar codigo*/
+}
+
+
+#contenedor{
+
+    margin-top: 30px;
+    
+}
+
+
+.main{
+
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+
+
+aside
+{
+    background: rgb(235, 197, 128);
+   
+    
+}
+
+
+#articulo
+{
+    padding: 0px 40px 40px 40px;
+}
+
+
+h2{
+
+    padding: 8px 35px 8px 20px;
+    border: blueviolet 7px outset;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0.5cm;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+
+
+ul{
+    text-align: justify;
+}
+
+
+.titulo2{
+    margin-top: 30px;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+video{
+    
+    max-width: 100%;
+}
+
+.botones{
+    margin-top: 30px;
+}
+
+
+.espacioparrafo{
+    margin-top: 30px;
+}
+
+
+
+
+footer{
+    background: rgb(14, 0, 0);
+    color:blue;
+}
+
+
+
+/*Codigo de boton flotante*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#btn-mas{
+    display: none;
+}
+
+
+.containerb{
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+}
+
+
+.containerb .redes a, .btn-mas .icon {
+    display: block;
+    text-decoration: none;
+    background: #cc2b2b;
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+    transition: all 500ms ease;
+}
+
+.redes a:hover{
+    background: #fff;
+    color: #cc2b2b;
+}
+
+
+.btn-mas .icon{
+    margin: 15px;
+    cursor: pointer;
+    background: #f44141;
+    font-size: 20px;
+}
+
+
+
+.redes a{
+    margin: 5px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+
+#btn-mas:checked ~ .redes a{
+    margin-bottom: 5px;
+    opacity: 1;
+    visibility: visible;
+} 
+
+#btn-mas:checked ~ .btn-mas .icon{
+    transform: rotate(137deg);
+    font-size: 25px;
+}
+
+
+
+/*Fin codigo boton flotante*/
+
+
+
+th{
+        
+    border:rgb(240, 12, 12) solid;
+    text-align: center;
+}
+
+
+td{
+    border:rgb(233, 8, 8) solid;
+}
+
+
+
+
+.C1{
+
+    color: red;
+    border: powderblue 5px solid;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    
+}
+
+
+
+    
+   
+
+
+
+/*#Div1{
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 25px;
+    border-top: 1px;
+    border: 12px;
+  }
+
+
+  #temario{
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gray;
+    
+}
+    
+    
+    .t{
+    
+    background-color: beige;
+    font-size: 19 ;
+    padding: 10 px;
+    margin: 20 px;
+    width: 100 px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+   
+    
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+   
+       
